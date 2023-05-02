@@ -2,8 +2,8 @@ from binance.client import Client
 import config
 from datetime import datetime, timedelta
 
-# client = Client(config.api_key, config.api_secret)
-# print("login")
+client = Client(config.api_key, config.api_secret)
+print("login")
 #
 # # info = client.get_symbol_info("BTCUSDT")
 # # for x, y in info.items():
